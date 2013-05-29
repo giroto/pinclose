@@ -12,11 +12,10 @@ gem 'capistrano'
 gem 'pg'
 
 # Use SCSS for stylesheets
-group :assets do
+
 	gem 'sass-rails', '~> 4.0.0.rc1'
 	gem 'coffee-rails', '~> 4.0.0'
 	gem 'bootstrap-sass', '~> 2.3.1.2'
-end
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
