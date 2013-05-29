@@ -6,6 +6,8 @@ Pinclose::Application.configure do
 
   config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 
+  config.assets.prefix = "app/assets/stylesheets"
+
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both thread web servers
   # and those relying on copy on write to perform better.
