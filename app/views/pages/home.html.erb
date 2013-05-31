@@ -4,10 +4,13 @@
 	Compartilhe seus momentos com quem realmente importa!
 
 </p>
-
+<% if user_signed_in? %>
+<p><center>Você está Logado</center></p>
+<% else %>
 <p>
-	<%= link_to "Registre-se Agora!", '#', class: "btn btn-primary btn-large"  %>
+	<%= link_to "Registre-se Agora!", new_user_registration_path, class: "btn btn-primary btn-large"  %>
 </p>
+<% end %>
 </div>
 
 

@@ -6,6 +6,10 @@ gem 'rails', '4.0.0.rc1'
 gem 'unicorn'
 gem 'capistrano'
 
+gem 'devise', github: 'idl3/devise', branch: 'rails4'
+
+
+
 
 
 # Use postgresql as the database for Active Record

@@ -6,7 +6,9 @@ Pinclose::Application.configure do
 
   config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 
+  # This is a required Rails configuration. In production it must be the actual host of your application
 
+  #config.action_mailer.default_url_options = { :host => 'localhost:3000' }
 
   # Eager load code on boot. This eager loads most of Rails and
   # your application in memory, allowing both thread web servers
